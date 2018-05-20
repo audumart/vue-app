@@ -21,6 +21,16 @@ export default new Router({
       component: Admin,
     },
     {
+      path: '/admin/create',
+      name: 'CreateAdmin',
+      component: CreateAdmin,
+    },
+    {
+      path: '/admin',
+      name: 'EditAdmin',
+      component: EditAdmin,
+    },
+    {
       path: '/cart',
       name: 'Cart',
       component: Cart,
